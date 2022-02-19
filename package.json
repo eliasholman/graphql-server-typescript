@@ -1,0 +1,25 @@
+{
+  "name": "graphql-server-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "@apollo/federation": "^0.35.1",
+    "@apollo/subgraph": "^0.3.1",
+    "apollo-graphql": "^0.9.5",
+    "apollo-server": "^3.6.3",
+    "class-validator": "^0.13.2",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1"
+  }
+}
